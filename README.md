@@ -15,7 +15,7 @@ Tokenize sentences and user are free to create their own token package. Some of 
 npm i twink-tokenizer-js-tt
 
 - Come to github and clone this project and try it yourself
-https://github.com/Thanhtran34/Twink-tokenizer/tree/main
+https://github.com/Thanhtran34/Twink-Tokenizerjs
 
 
 ## Getting started
