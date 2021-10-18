@@ -41,6 +41,7 @@ console.log(tokens)
   {type: 'WORD', value: 'av', line: 1, col: 15},
   {type: 'WORD', value: 'ord', line: 1, col: 17},
   {type: 'DOT', value: '.', line: 1, col: 20},
+  {type: 'EOF', value: '', line: 1, col: 21}
 ]
 
 // Sometime, you just want only one token then use this getActiveToken method.
@@ -74,6 +75,7 @@ console.log(tokens)
   {type: 'WORD', value: 'av', line: 1, col: 15},
   {type: 'WORD', value: 'ord', line: 1, col: 17},
   {type: 'DOT', value: '.', line: 1, col: 20},
+  {type: 'EOF', value: '', line: 1, col: 21}
 ]
 
 ```

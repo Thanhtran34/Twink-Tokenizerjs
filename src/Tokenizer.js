@@ -98,6 +98,7 @@ export class Tokenizer {
    */
   endTokenizer () {
     if (this.tokenBuffer.length === 0) {
+      this.tokenPackage.push(this.setUpToken('', 'EOF'))
       return
     }
     const tokentyper = this.grammar.findMatchningRule(this.tokenTypers, this.tokenBuffer)
